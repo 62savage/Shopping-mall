@@ -37,3 +37,7 @@
 .search-box input:focus {
   outline: none;
 }
+
+.card:hover {
+  scale: 1.1;
+}
