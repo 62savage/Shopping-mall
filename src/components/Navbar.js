@@ -31,9 +31,9 @@ export default function Navbar() {
             <li>{list}</li>
           ))}
         </ul>
-        <div>
+        <div className="search-box">
           <FontAwesomeIcon icon={faSearch} />
-          <input type="text" />
+          <input type="text" className="" />
         </div>
       </div>
     </div>

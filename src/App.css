@@ -23,3 +23,17 @@
   display: flex;
   justify-content: center;
 }
+
+.search-box {
+  border-bottom: 1px solid black;
+  position: absolute;
+  right: 20px;
+  padding: 5px;
+}
+.search-box input {
+  border: none;
+  margin-left: 5px;
+}
+.search-box input:focus {
+  outline: none;
+}
