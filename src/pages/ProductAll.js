@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import ProductCard from "../components/ProductCard";
 
 export default function ProductAll() {
   const [productList, setProductList] = useState([]);
@@ -14,5 +15,9 @@ export default function ProductAll() {
     getProducts();
   }, []);
 
-  return <div>{}</div>;
+  return (
+    <div>
+      <ProductCard />
+    </div>
+  );
 }
