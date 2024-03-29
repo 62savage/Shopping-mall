@@ -7,7 +7,7 @@ export default function ProductDetail() {
   const [product, setProduct] = useState(null);
 
   const getProductDetail = async () => {
-    const url = `http://localhost:3004/products/${id}`;
+    const url = `https://my-json-server.typicode.com/62savage/Shopping-mall/products/${id}`;
     const response = await fetch(url);
     const data = await response.json();
     setProduct(data);
