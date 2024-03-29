@@ -7,6 +7,13 @@ import { useNavigate } from "react-router-dom";
 export default function Navbar() {
   const navigate = useNavigate();
   const menuLists = ["여성", "남성", "신생아/유아", "아동", "H&M Home", "Sale"];
+
+  const search = (e) => {
+    if (e.key === "Enter") {
+      const keyword = e.target.value;
+      navigate(`/?q=${keyword}`);
+    }
+  };
   return (
     <div>
       <div
@@ -33,7 +40,7 @@ export default function Navbar() {
         </ul>
         <div className="search-box">
           <FontAwesomeIcon icon={faSearch} />
-          <input type="text" className="" />
+          <input type="text" className="" onKeyDown={search} />
         </div>
       </div>
     </div>
