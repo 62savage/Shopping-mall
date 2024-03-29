@@ -19,8 +19,8 @@ export default function ProductAll() {
   return (
     <Container>
       <Row>
-        {productList.map((menu) => (
-          <Col lg={3}>
+        {productList.map((menu, i) => (
+          <Col lg={3} key={i}>
             <ProductCard item={menu} />
           </Col>
         ))}
