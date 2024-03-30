@@ -1,4 +1,4 @@
-.login-button {
+/* .login-button {
   display: flex;
   justify-content: flex-end;
   margin: 20px;
@@ -20,7 +20,7 @@
   padding: 10px;
 }
 
-.menu-area {
+.nav-menu-area {
   display: flex;
   justify-content: center;
 }
@@ -37,7 +37,7 @@
 }
 .search-box input:focus {
   outline: none;
-}
+} */
 
 .card:hover {
   scale: 1.1;
