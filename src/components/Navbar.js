@@ -27,7 +27,7 @@ export default function Navbar({ authenticate, setAuthenticate }) {
 
   return (
     <div>
-      {/* <div className="side-menu" style={{ width: width }}>
+      <div className="side-menu" style={{ width: width }}>
         <button className="closebtn" onClick={() => setWidth(0)}>
           &times;
         </button>
@@ -36,7 +36,7 @@ export default function Navbar({ authenticate, setAuthenticate }) {
             <button key={i}>{list}</button>
           ))}
         </div>
-      </div> */}
+      </div>
 
       <div className="nav-header">
         <div className="burger-menu hide">
